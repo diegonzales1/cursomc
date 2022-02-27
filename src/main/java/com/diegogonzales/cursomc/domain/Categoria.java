@@ -13,10 +13,6 @@ import javax.persistence.ManyToMany;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-
 @Entity
 public class Categoria implements Serializable {
 	private static final long serialVersionUID = 1L;
